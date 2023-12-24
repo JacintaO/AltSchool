@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.assignments {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.assignments h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.assignments ul {
+  list-style: none;
+}
+
+.assignments ul li {
+  background-color: #f7f7f7;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.assignments ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .assignments ul li {
+    padding: 15px;
+    font-size: larger;
+  }
+}
